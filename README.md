@@ -3,7 +3,7 @@
 - Age: 25
 - Alias: CryoStorage
 
-![](pfp.jpg)
+![](/images/pfp.jpg)
 Hello, I'm Ray, Im a Video game and interactive software 
 development student based in mexico city
 

@@ -2,6 +2,8 @@
 ##Juan José Lopez##  
 #Producción Musical#
 ##Ana Laura Hernandez##  
+#Diseño De Niveles Y Mecanicas Avanzadas#
+##Eduardo Guerrero##  
 
 
 
@@ -24,3 +26,8 @@ como el uso de idiomas de gráficos y librerias gráficas.
 
 En esta materia aprendemos los basicos de la producción musical
 así como la integración de assets de audio en videojuegos
+
+En esta materia profundizamos los conocimientos de diseño de 
+niveles y mecanicas y los aplicamos. Asi como ejercitar la 
+creatividad para la creacion de estas mismas.
+

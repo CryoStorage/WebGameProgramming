@@ -1,9 +1,15 @@
+#Proyecto Semestral#
+##Nicolas Gaudenzi##  
 #Programación Grafica Avanzada#
 ##Juan José Lopez##  
 #Producción Musical#
 ##Ana Laura Hernandez##  
 #Diseño De Niveles Y Mecanicas Avanzadas#
 ##Eduardo Guerrero##  
+
+En esta materia aplicamos los conocimientos del semestre
+actual y semestres pasados y aprendemos sobre la creacion
+y gestion de proyectos en la creacion de videojuegos.
 
 
 

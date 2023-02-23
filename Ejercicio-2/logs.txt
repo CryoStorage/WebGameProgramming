@@ -1,0 +1,23 @@
+*   8610869 5th merge
+|\  
+| * 3e77065 Se agrega contenido de la materia al readme
+* |   67e2143 4th merge
+|\ \  
+| * | 73b0224 Se agrega contenido de la materia al readme
+| |/  
+* |   27f803e 3rd merge
+|\ \  
+| * | f582121 Se agrega contenido de la materia al readme
+| |/  
+* |   b247628 2nd merge
+|\ \  
+| * | 6a642ed Se agrega contenido de la materia al readme
+| |/  
+* | bebb60c Inserting Space for merge
+* | 537ebfc se agrega contenido de la materia al readme
+|/  
+* 6a4a53d Empieza ejercicio 2
+* f093244 Fixed image path
+* 81f8346 1st Exercise
+* 403c9c0 Personal Info Page
+* 82183b3 Initial commit

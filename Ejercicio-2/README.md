@@ -1,5 +1,7 @@
 #Programación Grafica Avanzada#
 ##Juan José Lopez##  
+#Producción Musical#
+##Ana Laura Hernandez##  
 
 
 
@@ -19,3 +21,6 @@ de juegos en red. Principalmente GIT.
 
 En esta clase aprendemos los basicos de la programacion grafica,
 como el uso de idiomas de gráficos y librerias gráficas. 
+
+En esta materia aprendemos los basicos de la producción musical
+así como la integración de assets de audio en videojuegos

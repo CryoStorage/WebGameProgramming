@@ -6,17 +6,17 @@
 
 ---
 
-matches (**EC**)
+### matches (**EC**)
 - match_id(**PK**)
 - date_time
 - map (**FK**)
 - agent (**FK**)
 - score
-- k/d/a
+- k_d_a
 - econ_rating
 - avg_combat_score
 
-### maps
+### maps (**EC**)
 
 1. bind
 1. haven
@@ -30,7 +30,7 @@ matches (**EC**)
 
 ---
 
-### agents
+### agents (**EC**)
 1. astra
 1. breach
 1. brimstone

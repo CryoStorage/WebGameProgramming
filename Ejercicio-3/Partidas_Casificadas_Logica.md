@@ -6,20 +6,40 @@
 
 ---
 
-### matches (**EC**)
+### player (**DE**)
+
+- player_id(**PK**)
+
+### matches (**DE**)
 
 - match_id(**PK**)
-- date_time
+- date
+- start_time
+- end_time
+- duration
 - map (**FK**)
 - agent (**FK**)
 - score
 - victory
 - rank(**FK**)
+- division(**FK**)
 - kills
 - deaths
 - assists
 - econ_rating
 - avg_combat_score
+- rank
+- division
+- episode
+- act
+
+### episode (**EC**)
+
+- episode_id (**PK**)
+- name
+- date
+
+---
 
 ### maps (**EC**)
 
@@ -36,6 +56,9 @@
 ---
 
 ### agents (**EC**)
+
+---
+
 1. astra
 1. breach
 1. brimstone
@@ -56,13 +79,27 @@
 1. viper
 1. yoru
 
-
-## Relations
+### episodes (**EC**)
 
 ---
 
-1. a **match** is played **in** a map (1 to m)
+1. IGNITION 
+1. FORMATION
+1. REFLECTION
+1. DISRUPTION
+1. DIMENSION
+1. REVELATION
+
+### Relations
+
+---
+
+1. a **player** plays **matches** in an **act**
+1. a **player** has a **rank** while playing a **match**
+1. an **act** happens in an **episode**
+1. a **match** is played **in** a **map** (1 to m)
 1. an **agent** is played **in** a match (1 to m)
+
 
 ## Diagrams 
 

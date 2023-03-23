@@ -13,7 +13,11 @@
 - map (**FK**)
 - agent (**FK**)
 - score
-- k_d_a
+- victory
+- rank(**FK**)
+- kills
+- deaths
+- assists
 - econ_rating
 - avg_combat_score
 

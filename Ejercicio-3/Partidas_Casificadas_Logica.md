@@ -13,31 +13,28 @@
 ### matches (**DE**)
 
 - match_id(**PK**)
-- date
-- start_time
-- end_time
+- date_time
 - duration
 - map (**FK**)
 - agent (**FK**)
 - score
-- victory
+- econ_rating
+- avg_combat_score
 - rank(**FK**)
 - division(**FK**)
 - kills
 - deaths
 - assists
-- econ_rating
-- avg_combat_score
 - rank
-- division
 - episode
 - act
+
+---
 
 ### episode (**EC**)
 
 - episode_id (**PK**)
 - name
-- date
 
 ---
 
@@ -52,8 +49,6 @@
 1. fracture
 1. pearl
 1. lotus
-
----
 
 ### agents (**EC**)
 
@@ -94,9 +89,9 @@
 
 ---
 
-1. a **player** plays **matches** in an **act**
-1. a **player** has a **rank** while playing a **match**
-1. an **act** happens in an **episode**
+1. a **match** happens in an **act** (1 to m)
+1. an **act** happens in an **episode** (1 to m)
+1. a **player** has a **rank** while playing a **match** (1 to 1)
 1. a **match** is played **in** a **map** (1 to m)
 1. an **agent** is played **in** a match (1 to m)
 
@@ -107,7 +102,7 @@
 
 ### Relational Model
 
-![relational db model](../img/relational.jpg)
+![relational db model](../img/relational.png)
 
 
 

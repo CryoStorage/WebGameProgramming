@@ -74,6 +74,13 @@
 1. viper
 1. yoru
 
+### roles (**EC**)
+1. duelist
+1. initiator
+1. sentinel
+1. controller
+
+
 ### episodes (**EC**)
 
 ---
@@ -94,7 +101,7 @@
 1. a **player** has a **rank** while playing a **match** (1 to 1)
 1. a **match** is played **in** a **map** (1 to m)
 1. an **agent** is played **in** a match (1 to m)
-
+1. an agent has a **role**(1 to 1)
 
 ## Diagrams 
 
@@ -104,5 +111,76 @@
 
 ![relational db model](../img/relational.png)
 
+## Business Rules
+
+---
+
+### Matches
+
+1. Create a match
+1. Read a match
+1. Read a match based on specific conditions
+1. Delete a match
+
+### Maps
+
+1. Create a map
+1. Read a map
+1. Delete a map
 
 
+### Agents
+
+1. Create an agent
+1. Read an agent
+1. Delete an agent
+
+### Ranks
+
+1. Create a rank
+1. Read a rank
+1. Delete a rank
+
+### Divisions
+
+1. Create a division
+1. Read a division
+1. Delete a division
+
+
+### Episodes
+
+1. Create an episode
+1. Read an episode
+1. Delete an episode
+
+
+### Acts
+
+1. Create an act
+1. Read an act
+1. Delete an act
+
+### Roles
+
+1. Create a role
+1. Read a role
+1. Delete a role
+
+## Validation
+
+---
+
+**score**
+- score must follow the following format
+
+       (rounds won by allied team)(/)(rounds won by enemy team)
+**date_time**
+- date_time must use the following format
+
+        (DD/MM/YY) (H:M:S)
+**episodes**
+- Episode must be written in all caps
+
+**ranks**
+- Ranks must be written in lower case

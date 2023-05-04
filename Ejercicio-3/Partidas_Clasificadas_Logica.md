@@ -1,8 +1,8 @@
-# Partidas Clasificadas
+# Ranked Matches
 
 ---
 
-### Listado de Entidades
+### Entities List
 
 ---
 

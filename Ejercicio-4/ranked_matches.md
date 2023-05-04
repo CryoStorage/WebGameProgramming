@@ -79,5 +79,5 @@ CREATE TABLE matches (
 );
 
 SHOW TABLES
-```ash
+```
 

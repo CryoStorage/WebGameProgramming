@@ -28,6 +28,7 @@ CREATE TABLE agents (
     FOREIGN KEY (role_id) REFERENCES roles(role_id)
 );
 
+ALTER TABLE agents AUTO_INCREMENT = 0;
 
 CREATE TABLE ranks (
     rank_id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
@@ -49,7 +50,7 @@ CREATE TABLE acts (
 CREATE TABLE matches (
     match_id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     date_time DATETIME NOT NULL,
-    duration INT UNSIGNED,
+    duration TIME NOT NULL,
     map_id INT UNSIGNED,
     agent_id INT UNSIGNED,
     score VARCHAR(10),
@@ -72,5 +73,6 @@ CREATE TABLE matches (
     FOREIGN KEY (player_id)	REFERENCES player(player_id)
 );
 
-SHOW TABLES
+DROP TABLE matches;
 
+SHOW TABLES

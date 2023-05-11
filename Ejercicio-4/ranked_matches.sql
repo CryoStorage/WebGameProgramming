@@ -6,6 +6,11 @@ CREATE TABLE player (
     player_id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY
 );
 
+alter table player add column player_name VARCHAR(255);
+alter table player add column player_email VARCHAR(255);
+
+
+
 CREATE TABLE episodes (
     episode_id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255) NOT NULL
@@ -27,8 +32,6 @@ CREATE TABLE agents (
     role_id INT UNSIGNED,
     FOREIGN KEY (role_id) REFERENCES roles(role_id)
 );
-
-ALTER TABLE agents AUTO_INCREMENT = 0;
 
 CREATE TABLE ranks (
     rank_id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
@@ -54,8 +57,8 @@ CREATE TABLE matches (
     map_id INT UNSIGNED,
     agent_id INT UNSIGNED,
     score VARCHAR(10),
-    econ_rating DECIMAL(4,2),
-    avg_combat_score DECIMAL(4,2),
+    econ_rating DECIMAL(5,2),
+    avg_combat_score DECIMAL(5,2),
     rank_id INT UNSIGNED,
     division_id INT UNSIGNED,
     kills INT UNSIGNED,
